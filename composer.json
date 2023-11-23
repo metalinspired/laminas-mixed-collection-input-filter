@@ -1,0 +1,26 @@
+{
+  "name": "metalinspired/zend-mixed-collection-input-filter",
+  "description": "Extended collection input filter that allows using different input filter per collection item",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "laminas",
+    "inputfilter"
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
+    "laminas/laminas-inputfilter": "^2.22.0",
+    "laminas/laminas-validator": "^2.26.0"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "metalinspired\\MixedCollectionInputFilter\\": "src/"
+    }
+  }
+}
