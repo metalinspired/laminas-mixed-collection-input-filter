@@ -1,5 +1,5 @@
 {
-  "name": "metalinspired/zend-mixed-collection-input-filter",
+  "name": "metalinspired/laminas-mixed-collection-input-filter",
   "description": "Extended collection input filter that allows using different input filter per collection item",
   "license": "BSD-3-Clause",
   "keywords": [
